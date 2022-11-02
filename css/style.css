@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 header{
     background-color: black;
     color: white;
-    font-size: 18px;
     text-align: center;
     font-weight: bold;
     height: 40px;
@@ -15,17 +20,20 @@ header p{
     padding-top: 8px;
     font-family: cinzel;
     font-weight: 400;
+    font-size: 18px;
 }
+
+
 nav{
     height: 110px;
 }
 
-
 .logoImagen{
     width: 110px;
 }
-.navPropio{
+.divNav{
     background-color: white;
+    padding-right: 20px
 }
 .imagenPrincipal{
     width: 100%;
@@ -39,57 +47,71 @@ nav{
     background-color: black;
     border: 1px solid white;
 }
-.containerPropio{
-    width: 100%;
+.containerMain{
     max-width: 100%;
     padding: 0;
 }
-.containerPropioDos{
-    max-width: 100%;
-    padding: 0;
+.mainPropio{
+    padding-right: 0;
 }
+
 .sectionArgentina{
     background-color: rgb(122, 39, 199);
 }
+.containerArgentina{
+    max-width: 100%;
+    padding: 0;
+}
+.rowArgentina{
+    padding-right: 0;
+}
+
 .tituloArgentina{
-    font-size: 65px;
-    padding-top: 200px;
+    font-size: 50px;
+    padding-top: 100px;
     text-align: center;
     font-weight: 800;
     color: white;
 }
 .subtituloArgentina{
-    font-size: 40px;
-    padding-top: 100px;
+    font-size: 35px;
     text-align: center;
     color: white;
+    padding-top: 70px;
 }
+
+
 
 .sectionSuperclasico{
     padding-top: 100px;
 }
+.containerSuperclasico{
+    max-width: 100%;
+    padding: 0;
+}
 .tituloSuperclasico{
     text-align: center;
-    padding-top: 100px;
-    padding-left: 30px;
+    padding: 25px;
 }
 .subtituloSuperclasico{
     text-align: center;
-    padding-left: 30px;
 }
-.containerPropioTres{
-    max-width: 100%;
-    padding: 0;
+
+.divIzquierda{
+    padding-right: 0;
 }
 
 .divMedio{
     background: rgb(0,23,218);
     background: linear-gradient(90deg, rgba(0,23,218,1) 28%, rgba(253,29,29,1) 70%);
+    padding-right: 0;
 }
+
 .divDerecha{
     padding-left: 0;
+    padding-right: 0;
 }
-.imgRiver{
+.imgRiver, .imgBoca{
     width: 100%;
     height: 100%;
 }
@@ -100,13 +122,13 @@ footer{
     text-align: center;
     padding-top: 50px;
 }
+.containerFooter{
+    max-width: 100%;
+}
+
 i{
     font-size: 40px;
     padding: 30px;
-}
-.containerPropioCuatro{
-    max-width: 100%;
-    
 }
 .tituloFooter{
     font-weight: 800;
@@ -116,31 +138,37 @@ i{
     font-size: 20px;
 }
 
-
-.containerPropioCinco{
-    max-width: 85%;
+/* Sobrenosotros historia */
+.containerSobrenosotros{
+    max-width: 100%;
 }
 .tituloSobreNosotros{
     text-align: center;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 50px;
     padding: 60px;
 }
 .subtituloSobreNosotros{
-    font-size: 60px;
+    font-size: 40px;
     padding: 60px;
 }
-p{
-    font-size: 20px;
+.parrafoSobreNosotros{
+    font-size: 17px;
     padding: 20px;
 }
-
-.containerPropioCuatro{
+/* Imagen inspiradora sobrenosotros */
+.containerImgSobreNosotros{
     position: relative;
     display: inline-block;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
+    max-width: 100%;
+}
+
+.imagenSobreNosotros{
+    height: 300px;
+    width: 100%; 
 }
 .textoImgSobreNosotros{
     color: white;
@@ -148,12 +176,8 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 35px;
     font-family: oswald;
-}
-.imagenSobreNosotros{
-    height: 400px;
-    width: 100%; 
 }
 
 /* Search */
