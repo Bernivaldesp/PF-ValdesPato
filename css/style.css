@@ -118,7 +118,8 @@ nav{
 
 
 footer{
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(26, 26, 26);
+    color: white;
     text-align: center;
     padding-top: 50px;
 }
@@ -267,5 +268,141 @@ i{
   }
 /* Termina animacion */
 
+/* Contacto */
+.formContacto{
+    font-family: ;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 1.8rem 0 1.8rem 1.8rem;
+    margin: 1rem auto;
+    max-width: 50%;
+    border: 1px solid black;
+}
+fieldset{
+    border: none;
+}
+fieldset div:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+legend{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: ;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+}
+.labelContacto{
+    color: black;
+    text-transform: uppercase;
+}
 
-  
+.inputContacto{
+    height: 30px;
+    margin: 0 0 10px 10px;
+    border: 1px solid black;
+    padding: 15px;
+    font-family: ;
+    font-size: 14px;
+    color: black;
+}
+.inputContacto:focus, textarea:focus{
+    outline: none;
+    border: 1px solid black;
+}
+.btnSendContacto{
+    padding: 0 50px;
+    border: black 2px solid;
+    color: white;
+    font-family: ;
+    text-transform: uppercase;
+    background-color: black;
+}
+.btnSendContacto:hover{
+    background-color: white;
+    color: black;
+}
+svg{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.textareaContacto{
+    resize: none;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+/* PRODUCTOS */
+/* Argentina */
+.containerSeccionArgentina{
+    max-width: 100%;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+.escudoArgentina{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+.rowArgentina{
+    display: flex;
+    justify-content: space-around;
+}
+.cardArgentina{
+    padding-left: 0;
+    padding-right: 0;
+}
+.imgSeccionArgentina{
+    width: 100%;
+}
+
+/* River */
+.containerSeccionRiver{
+    max-width: 100%;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+.escudoRiver{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+.rowRiver{
+    display: flex;
+    justify-content: space-around;
+}
+.cardRiver{
+    padding-left: 0;
+    padding-right: 0;
+}
+.imgSeccionRiver{
+    width: 100%;
+}
+
+/* Boca */
+.containerSeccionBoca{
+    max-width: 100%;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+.escudoBoca{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+.rowBoca{
+    display: flex;
+    justify-content: space-around;
+}
+.cardBoca{
+    padding-left: 0;
+    padding-right: 0;
+}
+.imgSeccionBoca{
+    width: 100%;
+}
