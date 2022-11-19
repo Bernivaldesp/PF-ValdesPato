@@ -20,9 +20,15 @@
     <title>Ropa Deportiva | potencia tu actividad fisica</title>
 </head>
 <body>
-    <header>
-      <p>AHORA PODES PAGAR EN HASTA 6 CUOTAS SIN INTERES</p>
-    </header>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>AHORA PODES PAGAR EN HASTA 6 CUOTAS SIN INTERES</p>
+        </div>
+      </div>
+    </div>
+  </header>
     
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid divNav">
@@ -52,65 +58,27 @@
             </ul>
             <!-- Search de la nav -->
             <form class="d-flex" role="search">
-              <input class="form-control me-2 form-control-mio" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success btnPropio" type="submit">Search</button>
+              <input class="form-control me-2 form-control-mio" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success btnPropio" type="submit">Buscar</button>
             </form>
           </div>
         </div>
       </nav>
 
 
-      
-  <div class="container containerFormulario">
-    <div class="row">
-      <div>
-        <form class="formContacto" action="" method="post">
-          <fieldset>
-            <legend>Formulario de contacto</legend>
-            <div class="col-12">
-              <label class="col-2" class="labelContacto" for="name">Nombre</label>
-              <!-- required -->
-              <input class="inputContacto form-control-mio" class="col-8" type="text" id="name" name="name" title="Por favor, ingrese su nombre.">
-            </div>
-            <div class="col-12">
-              <label class="col-2" class="labelContacto" for="lastName">Apellido</label>
-              <input class="inputContacto form-control-mio" class="col-8" type="text" id="lastName" name="lastName" title="Por favor, ingrese su apellido.">
-            </div>
-            <div class="col-12">
-              <label class="col-2" class="labelContacto" for="age">Edad</label>
-              <input class="inputContacto form-control-mio" class="col-2" type="number" name="age" id="age" min="18" required>
-            </div>
-            <div class="col-12">
-              <label class="col-2" class="labelContacto" for="phoneNumber">Telefono</label>
-              <input class="inputContacto form-control-mio" class="col-8" type="tel" id="tel" name="tel" title="Por favor, ingrese su numero telefonico.">
-            </div>
-            <div class="col-12">
-              <label class="col-2" class="labelContacto" for="email">E-mail</label>
-              <input class="inputContacto form-control-mio" class="col-8" type="email" id="email" name="email" title="Por favor, ingrese su direccion de mail.">
-            </div>
-            <div class="col-12">
-              <label class="col-2" class="labelContacto" for="text">Mensaje</label>
-              <textarea class="col-8 textareaContacto form-control-mio" name="message" id="message" cols="20" rows="5"></textarea>
-            </div>
-            <div class="col-12">
-              <input class="btnSendContacto inputContacto" type="reset" value="borrar">
-              <input class="btnSendContacto inputContacto" type="submit" value="enviar">
-            </div>
-          </fieldset>
-        </form>
-      </div>
-    </div>
-  </div>
-
- <div class="container containerMapas">
-  <div class="row">
-    <div class="divMapaContacto">
-      <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5751335079644!2d-58.43016718103748!3d-34.58961551090289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5877abf07e3%3A0x278318ba0a806a67!2sAdidas%20Originals!5e0!3m2!1ses!2sar!4v1668545216844!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9886886583163!2d-58.42826728519602!3d-34.57915276370486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aabcb96396d8d%3A0xa7a15b2208223db3!2sadidas%20Outlet%20Store%20Buenos%20Aires%2C%20Arcos!5e0!3m2!1ses!2sar!4v1668545264684!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
- </div>
+<form class="formContacto" action="">
+  <h2 class="tituloFormularioContacto">CONTACTO</h2>
+  <input class="inputContacto" type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" id="">
+  <input class="inputContacto" type="text" name="Mail" placeholder="Mail" id="">
+  <input class="inputContacto" type="text" name="Telefono" placeholder="Telefono" id="">
+  <textarea class="textareaContacto" name="Mensaje" placeholder="Escriba aqui su mensaje" id="" cols="30" rows="10"></textarea>
+  <input class="inputContacto" type="button" value="ENVIAR" name="" id="boton">
+</form>
  
+
+<div class="divMapaContacto">
+  <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6299629809523!2d-58.41485688103794!3d-34.588228510830675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbd98f399297%3A0x2db15097d09666c3!2sadidas%20Store%20C.A.B.A.%2C%20Av.%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1668823936143!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 
       <footer>
