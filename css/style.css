@@ -69,7 +69,7 @@ nav{
     max-width: 100%;
     padding: 0;
 }
-.rowArgentina, .rowSuperclasico{
+.rowArgentina{
     margin-right: 0;
     margin-left: 0;
     padding-right: 0;
@@ -97,6 +97,12 @@ nav{
     max-width: 100%;
     padding: 0;
 }
+.rowSuperclasico{
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0; 
+}
 .tituloSuperclasico{
     text-align: center;
     padding: 25px;
@@ -104,19 +110,16 @@ nav{
 .subtituloSuperclasico{
     text-align: center;
 }
-
 .divIzquierda{
     padding-right: 0;
     padding-left: 0;
 }
-
 .divMedio{
     background: rgb(0,23,218);
     background: linear-gradient(90deg, rgba(0,23,218,1) 28%, rgba(253,29,29,1) 70%);
     padding-right: 0;
     padding-left: 0;
 }
-
 .divDerecha{
     padding-left: 0;
     padding-right: 0;
@@ -168,6 +171,7 @@ i{
     font-size: 17px;
     padding: 20px;
 }
+
 /* Imagen inspiradora sobrenosotros */
 .containerImgSobreNosotros{
     position: relative;
@@ -177,7 +181,6 @@ i{
     padding-right: 0;
     max-width: 100%;
 }
-
 .imagenSobreNosotros{
     height: 300px;
     width: 100%; 
@@ -331,7 +334,6 @@ i{
 }
 .divMapaContacto{
     max-width: 700px;
-    border: 2px solid black;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
@@ -420,7 +422,7 @@ i{
     width: 100%;
 }
 
-/* Media query */
+/* Media queries */
 @media screen and (max-width: 576px){
     .imagenPrincipal{
         visibility: hidden;
@@ -431,6 +433,8 @@ i{
     }
     .subtituloArgentina{
         font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .tituloSuperclasico{
         color: white;
@@ -439,6 +443,8 @@ i{
     .subtituloSuperclasico{
         color: white;
         font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .tituloSobreNosotros{
         padding-top: 190px;
