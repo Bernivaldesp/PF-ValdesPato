@@ -69,10 +69,10 @@ nav{
     max-width: 100%;
     padding: 0;
 }
-.rowArgentina{
+.rowArgentina, .rowSuperclasico{
+    margin-right: 0;
     padding-right: 0;
 }
-
 .tituloArgentina{
     font-size: 50px;
     padding-top: 100px;
