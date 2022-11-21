@@ -442,9 +442,6 @@ i{
     .imagenSobreNosotros, .textoImgSobreNosotros{
         visibility: hidden;
     }
-    .escudoArgentina2, .escudoRiver2, .escudoBoca2{
-        visibility: hidden;
-    }
     .imgSeccionArgentina, .imgSeccionRiver, .imgSeccionBoca{
         display: none;
     }
@@ -452,16 +449,21 @@ i{
         margin-top: 190px;
     }
 }
+
 @media screen and (max-width: 750px){
     .imagenSobreNosotros, .textoImgSobreNosotros{
         visibility: hidden;
     }
 }
+
 @media screen and (max-width: 995px){
     .formContacto{
         margin-top: 190px;
     }
     .tituloSobreNosotros{
         padding-top: 190px;
+    }
+    .escudoArgentina2, .escudoRiver2, .escudoBoca2{
+        visibility: hidden;
     }
 }
