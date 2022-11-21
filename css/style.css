@@ -153,7 +153,8 @@ i{
     text-align: center;
     font-weight: 900;
     font-size: 50px;
-    padding: 60px;
+    padding-top: 60px;
+    
 }
 .subtituloSobreNosotros{
     font-size: 40px;
@@ -352,7 +353,7 @@ i{
     padding-bottom: 40px;
     padding-left: 0;
 }
-.escudoArgentina{
+.escudoArgentina1, .escudoArgentina2, .escudoArgentina3{
     display: flex;
     justify-content: space-around;
     background-color: lightblue;
@@ -375,7 +376,7 @@ i{
     padding-bottom: 40px;
     padding-left: 0;
 }
-.escudoRiver{
+.escudoRiver1, .escudoRiver2, .escudoRiver3{
     display: flex;
     justify-content: space-around;
     background-color: red;
@@ -398,7 +399,7 @@ i{
     padding-bottom: 40px;
     padding-left: 0;
 }
-.escudoBoca{
+.escudoBoca1, .escudoBoca2, .escudoBoca3{
     display: flex;
     justify-content: space-around;
     background-color: blue;
@@ -421,7 +422,7 @@ i{
         visibility: hidden;
     }
     .tituloArgentina{
-        font-size: 25px;
+        font-size: 18px;
         padding-top: 0px;
     }
     .subtituloArgentina{
@@ -429,14 +430,38 @@ i{
     }
     .tituloSuperclasico{
         color: white;
+        font-size: 18px;
     }
     .subtituloSuperclasico{
         color: white;
+        font-size: 18px;
     }
-    .containerSobrenosotros{
-        
+    .tituloSobreNosotros{
+        padding-top: 190px;
     }
     .imagenSobreNosotros, .textoImgSobreNosotros{
         visibility: hidden;
+    }
+    .escudoArgentina2, .escudoRiver2, .escudoBoca2{
+        visibility: hidden;
+    }
+    .imgSeccionArgentina, .imgSeccionRiver, .imgSeccionBoca{
+        display: none;
+    }
+    .formContacto{
+        margin-top: 190px;
+    }
+}
+@media screen and (max-width: 750px){
+    .imagenSobreNosotros, .textoImgSobreNosotros{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 995px){
+    .formContacto{
+        margin-top: 190px;
+    }
+    .tituloSobreNosotros{
+        padding-top: 190px;
     }
 }
