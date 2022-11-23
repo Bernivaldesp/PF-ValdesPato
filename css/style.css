@@ -139,17 +139,18 @@ footer{
 .containerFooter{
     max-width: 100%;
 }
-
 i{
     font-size: 40px;
     padding: 30px;
 }
 .tituloFooter{
     font-weight: 800;
+    font-family: 'Yantramanav', sans-serif;
 }
 .subtituloFooter{
     font-weight: 200;
     font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 /* Sobrenosotros historia */
@@ -161,11 +162,12 @@ i{
     font-weight: 900;
     font-size: 50px;
     padding-top: 60px;
-    
+    font-family: oswald;
 }
 .subtituloSobreNosotros{
     font-size: 40px;
     padding: 60px;
+    font-family: oswald;
 }
 .parrafoSobreNosotros{
     font-size: 17px;
@@ -224,7 +226,6 @@ i{
     background: rgb(7, 2, 2);
     overflow-x: hidden;
   }
-
 .h1Propio{
     font-size: 3.5vw;
     position: relative;
@@ -450,7 +451,7 @@ i{
         padding-top: 190px;
     }
     .imagenSobreNosotros, .textoImgSobreNosotros{
-        visibility: hidden;
+        display: none;
     }
     .imgSeccionArgentina, .imgSeccionRiver, .imgSeccionBoca{
         display: none;
